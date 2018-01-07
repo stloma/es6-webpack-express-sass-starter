@@ -1,0 +1,27 @@
+$body-color: silver;
+$font: Lato;
+$color: #666;
+
+body {
+  background: $body-color;
+  font-family: $font;
+  color: $color;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  h2 {
+    border-bottom: 1px solid $color;
+  }
+
+  .status {
+    font-size: .7em;
+    text-transform: uppercase;
+  }
+}
+
